@@ -2,7 +2,7 @@
 
 Ứng dụng web tĩnh (chạy **100% offline**, không phụ thuộc CDN ngoài) phục vụ ôn luyện và tác nghiệp tiếng Anh tại **Triển lãm Quốc phòng quốc tế Việt Nam 2026** (10–13/12/2026, Sân bay Gia Lâm, Hà Nội).
 
-## Nội dung & Tính năng nổi bật (Bản hoàn thiện v6)
+## Nội dung & Tính năng nổi bật (Bản hoàn thiện v7 — đã tối ưu lỗi, Dark Mode & iOS PWA)
 - **280 thuật ngữ chuyên ngành** (16 chuyên ngành: Quân hàm đầy đủ, Chức danh & Cơ quan Quân đội, Đảng–Nhà nước chuẩn Thông tư 05/2026/TT-BNG, Khí tài 2026 gồm T-1/Z181/C-UAS/VR MiG-21, Hải quan ATA Carnet & Quầy Thông tin), kèm Flashcard, Luyện Nghe và cờ đánh dấu **Cần ôn lại (SRS)**.
 - **126 mẫu câu thực chiến** (60 mẫu Đối ngoại/B2B/Báo chí/4 Không + 66 mẫu chuyên biệt Quầy Thông tin) tích hợp **đọc phát âm Anh-Mỹ/Anh-Anh**, **Luyện nói chấm phát âm**, và nút **Giơ thẻ toàn màn hình** dùng khi khu vực bay chào mừng ồn.
 - **15 thẻ xử lý sự cố khẩn (SOS)**, checklist ca trực 12 mục, Sổ trực & Danh bạ Nóng tự lưu, **In Tờ trực Quầy (1 trang)** ưu tiên câu đã ghim & Danh bạ Nóng.

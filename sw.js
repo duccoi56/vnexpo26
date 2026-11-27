@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vn-defence-expo-2026-v6';
+const CACHE_NAME = 'vn-defence-expo-2026-v7';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -30,18 +30,25 @@ self.addEventListener('activate', event => {
   );
 });
 
+// Stale-While-Revalidate for instant offline boot + silent background updates when online
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
+  const isNav = event.request.mode === 'navigate';
   event.respondWith(
     caches.match(event.request).then(cached => {
-      if (cached) return cached;
-      return fetch(event.request).then(response => {
-        if (response && response.status === 200 && response.type === 'basic') {
-          const copy = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
-        }
-        return response;
-      }).catch(() => caches.match('./index.html'));
+      const networkFetch = fetch(event.request)
+        .then(response => {
+          if (response && response.status === 200 && response.type === 'basic') {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => {
+          if (cached) return cached;
+          return isNav ? caches.match('./index.html') : new Response('', { status: 503, statusText: 'Offline' });
+        });
+      return cached || networkFetch;
     })
   );
 });
