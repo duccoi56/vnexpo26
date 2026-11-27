@@ -309,8 +309,8 @@
       // === BỔ SUNG CHUYÊN SÂU 2026: C-UAS, KHÍ TÀI MỚI, HẢI QUAN ATA CARNET & HỖ TRỢ TIẾP CẬN (+30) ===
       { id: 'v251', cat: 'air', en: 'Counter-UAS (C-UAS)', ipa: '/ˈkaʊn.tər juː.eɪˈes/', vi: 'Hệ thống phòng chống UAV / phương tiện bay không người lái', exEn: 'Several domestic and international exhibitors are showcasing integrated Counter-UAS solutions.', exVi: 'Nhiều đơn vị trong nước và quốc tế trưng bày giải pháp phòng chống UAV tích hợp.' },
       { id: 'v252', cat: 'air', en: 'Handheld RF drone jammer', ipa: '/ˈhænd.held ɑːrˈef droʊn ˈdʒæm.ər/', vi: 'Thiết bị gây nhiễu UAV cầm tay (sản phẩm mới Nhà máy Z181)', exEn: 'Factory Z181 unveiled its new handheld RF drone jammer for perimeter protection.', exVi: 'Nhà máy Z181 lần đầu giới thiệu thiết bị gây nhiễu UAV cầm tay bảo vệ vành đai.' },
-      { id: 'v253', cat: 'air', en: 'Loitering munition', ipa: '/ˈlɔɪ.tər.ɪŋ mjuːˈnɪʃ.ən/', vi: 'Đạn tuần kích / UAV cảm tử', exEn: 'Loitering munitions combine reconnaissance persistence with precision strike capability.', exVi: 'Đạn tuần kích kết hợp khả năng trinh sát bay chờ với tấn công chính xác.' },
-      { id: 'v254', cat: 'air', en: 'Glide bomb', ipa: '/ɡlaɪd bɒm/', vi: 'Bom lượn dẫn đường (trưng bày cùng UAV 2026)', exEn: 'The unmanned aerial platform can be configured with a precision-guided glide bomb.', exVi: 'Nền tảng bay không người lái có thể tích hợp bom lượn dẫn đường chính xác.' },
+      { id: 'v253', cat: 'air', en: 'Electronic countermeasures (ECM)', ipa: '/ɪˌlekˈtrɒn.ɪk ˈkaʊn.tərˌmeʒ.ərz/', vi: 'Biện pháp đối kháng điện tử', exEn: 'Modern aircraft carry electronic countermeasures to disrupt enemy radar tracking.', exVi: 'Máy bay hiện đại mang hệ thống đối kháng điện tử để làm nhiễu radar đối phương.' },
+      { id: 'v254', cat: 'air', en: 'Synthetic aperture radar (SAR)', ipa: '/sɪnˈθet.ɪk ˈæp.ə.tʃər ˈreɪ.dɑːr/', vi: 'Radar khẩu độ tổng hợp (trinh sát mặt đất)', exEn: 'The reconnaissance UAV is fitted with a synthetic aperture radar for all-weather imaging.', exVi: 'UAV trinh sát được trang bị radar khẩu độ tổng hợp cho khả năng chụp ảnh mọi thời tiết.' },
       { id: 'v255', cat: 'air', en: 'Hard-kill / Soft-kill interception', ipa: '/hɑːrd kɪl / sɒft kɪl/', vi: 'Đánh chặn tiêu diệt cứng (hỏa lực) / chế áp mềm (điện tử)', exEn: 'Modern air defence layers combine soft-kill jamming with hard-kill kinetic interceptors.', exVi: 'Phòng không hiện đại kết hợp chế áp mềm bằng gây nhiễu và đánh chặn cứng.' },
       { id: 'v256', cat: 'naval', en: 'Unmanned Surface Vessel (USV)', ipa: '/ʌnˈmænd ˈsɜːr.fɪs ˈves.əl/', vi: 'Xuồng / Phương tiện mặt nước không người lái', exEn: 'Unmanned Surface Vessels enhance maritime patrol and coastal reconnaissance.', exVi: 'Phương tiện mặt nước không người lái tăng cường tuần tra và trinh sát ven biển.' },
       { id: 'v257', cat: 'land', en: 'Light tank (T-1 Light Tank)', ipa: '/laɪt tæŋk/', vi: 'Xe tăng hạng nhẹ (mẫu T-1 do Nhà máy Z125 chế tạo)', exEn: 'The domestically developed T-1 Light Tank makes its debut at Vietnam Defence Expo 2026.', exVi: 'Xe tăng hạng nhẹ T-1 do Việt Nam tự nghiên cứu chế tạo lần đầu ra mắt tại Triển lãm 2026.' },
@@ -328,7 +328,7 @@
       { id: 'v269', cat: 'procurement', en: 'Bonded warehouse', ipa: '/ˈbɒn.dɪd ˈweə.haʊs/', vi: 'Kho ngoại quan', exEn: 'Empty shipping crates are stored safely in the designated bonded warehouse during the show.', exVi: 'Vỏ thùng vận chuyển rỗng được lưu giữ an toàn tại kho ngoại quan trong thời gian triển lãm.' },
       { id: 'v270', cat: 'procurement', en: 'Import licence / Export permit', ipa: '/ˈɪm.pɔːrt ˈlaɪ.səns / ˈek.spɔːrt ˈpɜːr.mɪt/', vi: 'Giấy phép nhập khẩu / Giấy phép xuất khẩu quốc phòng', exEn: 'Controlled optical components require a valid export permit prior to shipment.', exVi: 'Linh kiện quang học thuộc diện kiểm soát cần giấy phép xuất khẩu hợp lệ trước khi gửi hàng.' },
       { id: 'v271', cat: 'ops', en: 'Booth build-up / Dismantling', ipa: '/buːθ ˈbɪld.ʌp / dɪsˈmæn.tlɪŋ/', vi: 'Thi công lắp dựng / Tháo dỡ gian hàng', exEn: 'Dismantling of indoor booths begins after 15:00 on December 13 once all public visitors have exited.', exVi: 'Việc tháo dỡ gian hàng trong nhà bắt đầu sau 15:00 ngày 13/12 khi khách đã rời hết.' },
-      { id: 'v272', cat: 'ops', en: 'Prohibited items', ipa: '/prəˈhɪb.ɪ.tɪd ˈaɪ.təmz/', vi: 'Vật dụng cấm mang vào khu vực triển lãm', exEn: 'Drones, sharp objects, flammable materials and unauthorised radio jammers are strictly prohibited items.', exVi: 'Flycam, vật sắc nhọn, chất dễ cháy và thiết bị phá sóng trái phép bị nghiêm cấm mang vào.' },
+      { id: 'v272', cat: 'ops', en: 'Security screening lane', ipa: '/sɪˈkjʊə.rə.ti ˈskriː.nɪŋ leɪn/', vi: 'Làn kiểm tra an ninh (cổng vào)', exEn: 'Exhibitors carrying demonstration equipment should use the dedicated security screening lane.', exVi: 'Đơn vị trưng bày mang thiết bị trình diễn vui lòng đi qua làn kiểm tra an ninh chuyên biệt.' },
       { id: 'v273', cat: 'ops', en: 'Security screening checkpoint', ipa: '/sɪˈkjʊə.rə.ti ˈskriː.nɪŋ ˈtʃek.pɔɪnt/', vi: 'Cổng / Chốt kiểm tra soi chiếu an ninh', exEn: 'Please have your QR pass and passport ready before reaching the security screening checkpoint.', exVi: 'Vui lòng chuẩn bị sẵn mã QR và hộ chiếu trước khi tới cổng soi chiếu an ninh.' },
       { id: 'v274', cat: 'infodesk_vocab', en: 'Wheelchair-accessible route', ipa: '/ˈwiːl.tʃeər əkˈses.ə.bəl ruːt/', vi: 'Lối đi dành cho xe lăn / hỗ trợ người khuyết tật', exEn: 'A step-free, wheelchair-accessible route connects Hall A, Hall B and the outdoor display.', exVi: 'Lối đi không bậc dành cho xe lăn kết nối trực tiếp Nhà A, Nhà B và khu trưng bày ngoài trời.' },
       { id: 'v275', cat: 'infodesk_vocab', en: 'Priority lane', ipa: '/praɪˈɒr.ə.ti leɪn/', vi: 'Làn ưu tiên (người cao tuổi, khuyết tật, phụ nữ mang thai)', exEn: 'Elderly guests and visitors with mobility needs are welcome to use our priority lane.', exVi: 'Khách cao tuổi và khách hạn chế vận động được mời đi theo làn ưu tiên.' },
@@ -1275,7 +1275,7 @@
       bestQuizPct: null,
       bestQuizDetail: null,
       customVocab: [],
-      dailyProgress: { date: '', count: 0 }
+      dailyProgress: { date: '', count: 0, ids: [] }
     };
 
     function getAllVocab() {
@@ -1313,6 +1313,9 @@
       const today = getTodayKey();
       if (!state.dailyProgress || state.dailyProgress.date !== today) {
         return 0;
+      }
+      if (Array.isArray(state.dailyProgress.ids)) {
+        return state.dailyProgress.ids.length;
       }
       return state.dailyProgress.count || 0;
     }
@@ -1371,9 +1374,30 @@
     }
 
     /* ===================== UTILITIES ===================== */
+    function debounce(fn, delay = 180) {
+      let timer = null;
+      return function(...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn.apply(this, args), delay);
+      };
+    }
+
+    function syncBodyScrollLock() {
+      const modalIds = ['reset-modal', 'custom-vocab-modal', 'global-search-modal', 'field-display-modal'];
+      const anyOpen = modalIds.some(id => {
+        const el = document.getElementById(id);
+        return el && !el.classList.contains('hidden');
+      });
+      document.body.classList.toggle('overflow-hidden', anyOpen);
+    }
+
     function refreshIcons() {
       if (window.lucide && typeof window.lucide.createIcons === 'function') {
         window.lucide.createIcons();
+        // Strip data-lucide from rendered SVGs so subsequent calls only process newly injected <i> elements
+        document.querySelectorAll('svg[data-lucide]').forEach(svg => {
+          svg.removeAttribute('data-lucide');
+        });
       }
     }
 
@@ -1441,12 +1465,17 @@
       document.getElementById('field-display-vi').textContent = viText || '';
       document.getElementById('field-display-badge').textContent = badgeText || 'VN Defence Expo 2026 • Information';
       modal.classList.remove('hidden');
+      syncBodyScrollLock();
       refreshIcons();
     }
 
     /* Quick Speech Pronunciation Practice (Web Speech Recognition) */
     let activeRecognizer = null;
     function practicePronunciation(targetEn) {
+      if (navigator.onLine === false) {
+        showToast('Nhận diện giọng nói cần kết nối mạng. Khi offline, hãy dùng nút Nghe để luyện nói nhại (shadowing).', 'warn');
+        return;
+      }
       const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
       if (!SpeechRec) {
         showToast('Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Hãy dùng nút Nghe để luyện nói nhại (shadowing).', 'warn');
@@ -1462,15 +1491,23 @@
         showToast('Đang lắng nghe... Hãy đọc to câu tiếng Anh!', 'info');
         rec.onresult = ev => {
           const spoken = (ev.results[0] && ev.results[0][0] && ev.results[0][0].transcript) || '';
-          const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/).filter(Boolean);
+          const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
           const targetWords = norm(targetEn);
-          const spokenSet = new Set(norm(spoken));
-          const matched = targetWords.filter(w => spokenSet.has(w)).length;
+          const spokenCounts = new Map();
+          norm(spoken).forEach(w => spokenCounts.set(w, (spokenCounts.get(w) || 0) + 1));
+          let matched = 0;
+          targetWords.forEach(w => {
+            const c = spokenCounts.get(w) || 0;
+            if (c > 0) {
+              matched += 1;
+              spokenCounts.set(w, c - 1);
+            }
+          });
           const pct = targetWords.length ? Math.round((matched / targetWords.length) * 100) : 0;
           const level = pct >= 80 ? 'success' : pct >= 55 ? 'info' : 'warn';
           showToast(`Khớp ${pct}% — Bạn vừa đọc: “${spoken.slice(0, 75)}${spoken.length > 75 ? '...' : ''}”`, level);
         };
-        rec.onerror = () => showToast('Không thu được giọng nói. Vui lòng kiểm tra quyền Micro trên trình duyệt.', 'warn');
+        rec.onerror = () => showToast('Không thu được giọng nói. Vui lòng kiểm tra quyền Micro hoặc kết nối mạng.', 'warn');
         rec.start();
       } catch (e) {
         showToast('Không thể khởi động Micro lúc này.', 'warn');
@@ -1584,11 +1621,11 @@
       html.classList.add('font-' + state.fontSize);
 
       const themeMeta = document.querySelector('meta[name="theme-color"]');
-      if (themeMeta) themeMeta.setAttribute('content', state.theme === 'dark' ? '#09120C' : '#152A1D');
+      if (themeMeta) themeMeta.setAttribute('content', state.theme === 'dark' ? '#09120C' : '#183B23');
 
-      const icon = document.getElementById('theme-toggle-icon');
-      if (icon) {
-        icon.setAttribute('data-lucide', state.theme === 'dark' ? 'sun' : 'moon');
+      const themeBtn = document.getElementById('theme-toggle-btn');
+      if (themeBtn) {
+        themeBtn.innerHTML = `<i id="theme-toggle-icon" data-lucide="${state.theme === 'dark' ? 'sun' : 'moon'}" class="w-4 h-4"></i>`;
       }
       const fLabel = document.getElementById('font-cycle-label');
       if (fLabel) {
@@ -1677,7 +1714,7 @@
       updateCountdown();
       const totalVocab = getAllVocab().length;
       const masteredCount = state.masteredVocab.length;
-      const savedCount = state.bookmarkedPhrases.length;
+      const savedCount = state.bookmarkedPhrases.length + state.idPinnedPhrases.length;
       const rpDone = Object.keys(state.completedRoleplays).length;
       const quizPct = state.bestQuizPct !== null ? state.bestQuizPct : (state.bestQuizScore !== null ? Math.round((state.bestQuizScore / QUIZ_DATA.length) * 100) : 0);
 
@@ -1696,7 +1733,7 @@
       document.getElementById('daily-goal-bar').style.width = `${Math.round((dailyCount / 10) * 100)}%`;
 
       document.getElementById('stat-vocab').textContent = `${masteredCount} / ${totalVocab}`;
-      document.getElementById('stat-phrases').textContent = `${savedCount} / ${PHRASES_DATA.length}`;
+      document.getElementById('stat-phrases').textContent = `${savedCount} / ${PHRASES_DATA.length + INFODESK_PHRASES.length}`;
       document.getElementById('stat-roleplay').textContent = `${rpDone} / ${ROLEPLAY_SCENARIOS.length}`;
       document.getElementById('stat-quiz').textContent = state.bestQuizDetail ? state.bestQuizDetail : (state.bestQuizScore !== null ? `${state.bestQuizScore} / ${QUIZ_DATA.length}` : 'Chưa thi');
     }
@@ -1709,6 +1746,7 @@
         const isMastered = state.masteredVocab.includes(item.id);
         if (state.vocabMasteryFilter === 'mastered' && !isMastered) return false;
         if (state.vocabMasteryFilter === 'unmastered' && isMastered) return false;
+        if (state.vocabMasteryFilter === 'review' && !state.reviewVocab.includes(item.id)) return false;
         if (q) {
           const hay = normalizeSearch(`${item.en} ${item.vi} ${item.exEn} ${item.exVi}`);
           if (!hay.includes(q)) return false;
@@ -1726,14 +1764,19 @@
       const idx = state.masteredVocab.indexOf(id);
       if (idx >= 0) {
         state.masteredVocab.splice(idx, 1);
+        if (state.dailyProgress && Array.isArray(state.dailyProgress.ids)) {
+          state.dailyProgress.ids = state.dailyProgress.ids.filter(x => x !== id);
+          state.dailyProgress.count = state.dailyProgress.ids.length;
+        }
         showToast('Đã bỏ đánh dấu đã thuộc.');
       } else {
         state.masteredVocab.push(id);
         const today = getTodayKey();
-        if (state.dailyProgress.date !== today) {
-          state.dailyProgress = { date: today, count: 1 };
-        } else {
-          state.dailyProgress.count = (state.dailyProgress.count || 0) + 1;
+        if (!state.dailyProgress || state.dailyProgress.date !== today || !Array.isArray(state.dailyProgress.ids)) {
+          state.dailyProgress = { date: today, count: 1, ids: [id] };
+        } else if (!state.dailyProgress.ids.includes(id)) {
+          state.dailyProgress.ids.push(id);
+          state.dailyProgress.count = state.dailyProgress.ids.length;
         }
         showToast('Đã đánh dấu thuộc thuật ngữ!', 'success');
       }
@@ -1762,6 +1805,7 @@
     function deleteCustomVocab(id) {
       state.customVocab = state.customVocab.filter(v => v.id !== id);
       state.masteredVocab = state.masteredVocab.filter(m => m !== id);
+      state.reviewVocab = state.reviewVocab.filter(r => r !== id);
       saveProgress();
       renderVocab();
       renderOverview();
@@ -1771,8 +1815,19 @@
     function setupNextListeningQuestion() {
       const pool = getFilteredVocab();
       const allPool = pool.length >= 4 ? pool : getAllVocab();
-      const target = allPool[Math.floor(Math.random() * allPool.length)];
-      const distractors = shuffleArray(allPool.filter(x => x.id !== target.id)).slice(0, 3);
+      const prevId = state.listenItem ? state.listenItem.id : null;
+      const candidates = allPool.length > 1 ? allPool.filter(x => x.id !== prevId) : allPool;
+      const target = candidates[Math.floor(Math.random() * candidates.length)];
+      const usedVi = new Set([target.vi.trim().toLowerCase()]);
+      const distractors = [];
+      for (const item of shuffleArray(allPool)) {
+        if (item.id === target.id) continue;
+        const key = item.vi.trim().toLowerCase();
+        if (usedVi.has(key)) continue;
+        usedVi.add(key);
+        distractors.push(item);
+        if (distractors.length === 3) break;
+      }
       state.listenItem = target;
       state.listenOptions = shuffleArray([target, ...distractors]);
       state.listenAnswered = false;
@@ -1825,7 +1880,7 @@
 
     function renderVocab() {
       const totalCount = getAllVocab().length;
-      document.getElementById('vocab-section-title').textContent = `Từ vựng & Thuật ngữ Quân sự – Quốc phòng (${totalCount} thuật ngữ)`;
+      document.getElementById('vocab-section-title').textContent = `Từ vựng & Thuật ngữ Quân sự – Đối ngoại – Quầy Thông tin (${totalCount} thuật ngữ)`;
 
       const modeBtns = [
         { id: 'vocab-mode-grid', key: 'grid' },
@@ -1839,17 +1894,19 @@
           : 'px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium text-slate-600 hover:text-navy-900 flex items-center gap-1.5';
       });
 
+      const countsByCat = { all: totalCount };
+      getAllVocab().forEach(v => { countsByCat[v.cat] = (countsByCat[v.cat] || 0) + 1; });
       const catSelect = document.getElementById('vocab-cat-select');
       if (catSelect) {
         catSelect.innerHTML = VOCAB_CATEGORIES.map(c => {
-          const count = c.id === 'all' ? totalCount : getAllVocab().filter(v => v.cat === c.id).length;
+          const count = countsByCat[c.id] || 0;
           return `<option value="${c.id}" ${state.vocabCat === c.id ? 'selected' : ''}>${escapeHtml(c.label)} (${count})</option>`;
         }).join('');
       }
       const pillsEl = document.getElementById('vocab-category-pills');
       pillsEl.innerHTML = VOCAB_CATEGORIES.map(c => {
         const active = state.vocabCat === c.id;
-        const count = c.id === 'all' ? totalCount : getAllVocab().filter(v => v.cat === c.id).length;
+        const count = countsByCat[c.id] || 0;
         return `<button type="button" data-vcat="${c.id}" class="vcat-pill shrink-0 px-3.5 py-1.5 rounded-full text-xs font-semibold transition ${
           active ? 'bg-navy-900 text-amber-300 shadow-sm' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
         }">${escapeHtml(c.label)} (${count})</button>`;
@@ -1944,6 +2001,8 @@
           document.getElementById('fc-cat-badge').textContent = catLabel;
           const revBtnSpan = document.querySelector('#fc-reverse-btn span');
           if (revBtnSpan) revBtnSpan.textContent = state.fcReversed ? 'Việt → Anh' : 'Anh → Việt';
+          const frontSpeakBtn = document.getElementById('fc-speak-btn');
+          if (frontSpeakBtn) frontSpeakBtn.classList.toggle('hidden', state.fcReversed);
           if (state.fcReversed) {
             document.getElementById('fc-front-label').textContent = 'Mặt trước • Tiếng Việt (Luyện phản xạ)';
             document.getElementById('fc-back-label').textContent = 'Mặt sau • Tiếng Anh & Ngữ cảnh';
@@ -2037,7 +2096,7 @@
             <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-5 space-y-3 hover:border-slate-300 transition">
               <div class="flex flex-wrap items-center justify-between gap-2">
                 <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-600">${escapeHtml(scLabel)}</span>
-                <div class="flex items-center gap-1.5">
+                <div class="flex flex-wrap items-center gap-1.5">
                   <button type="button" data-speak-phrase="${p.id}" class="px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-navy-900 hover:text-white text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
                     <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>Nghe
                   </button>
@@ -2198,7 +2257,9 @@
 
       const choicesEl = document.getElementById('rp-choices-area');
       if (state.rpFinished) {
-        const rating = state.rpScore >= 25 ? 'Xuất sắc — Sẵn sàng tác nghiệp đối ngoại!' : state.rpScore >= 15 ? 'Khá tốt — Chú ý thêm sắc thái trang trọng.' : 'Cần luyện thêm — Hãy thử lại để nắm chắc mẫu câu chuẩn.';
+        const maxRpScore = state.rpShuffledTurns.length * 10 || 1;
+        const rpPct = (state.rpScore / maxRpScore) * 100;
+        const rating = rpPct >= 80 ? 'Xuất sắc — Sẵn sàng tác nghiệp đối ngoại!' : rpPct >= 50 ? 'Khá tốt — Chú ý thêm sắc thái trang trọng.' : 'Cần luyện thêm — Hãy thử lại để nắm chắc mẫu câu chuẩn.';
         choicesEl.innerHTML = `
           <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
@@ -2359,7 +2420,7 @@
             <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-4 sm:p-5 space-y-2.5 hover:border-slate-300 transition">
               <div class="flex flex-wrap items-center justify-between gap-2">
                 <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600">${escapeHtml(catLabel)}</span>
-                <div class="flex items-center gap-1.5">
+                <div class="flex flex-wrap items-center gap-1.5">
                   <button type="button" data-speak-idphrase="${p.id}" class="px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-navy-900 hover:text-white text-slate-700 text-xs font-semibold flex items-center gap-1 transition">
                     <i data-lucide="volume-2" class="w-3.5 h-3.5"></i>Nghe
                   </button>
@@ -2470,7 +2531,9 @@
       const box = document.getElementById('global-search-results');
       const q = normalizeSearch(String(rawQuery || '').trim());
       if (!q) {
-        box.innerHTML = `<div class="text-center py-8 text-xs text-slate-500">Gõ từ khóa tiếng Việt (có dấu hoặc không dấu) hoặc tiếng Anh để tra cứu tức thì xuyên suốt <strong>280 thuật ngữ</strong>, <strong>126 mẫu câu</strong>, <strong>15 thẻ SOS</strong>, <strong>Quân hàm – Đơn vị</strong> và <strong>56 viết tắt</strong>.</div>`;
+        const vTotal = getAllVocab().length;
+        const pTotal = PHRASES_DATA.length + INFODESK_PHRASES.length;
+        box.innerHTML = `<div class="text-center py-8 text-xs text-slate-500">Gõ từ khóa tiếng Việt (có dấu hoặc không dấu) hoặc tiếng Anh để tra cứu tức thì xuyên suốt <strong>${vTotal} thuật ngữ</strong>, <strong>${pTotal} mẫu câu</strong>, <strong>${INFODESK_SOS.length} thẻ SOS</strong>, <strong>Quân hàm – Đơn vị</strong> và <strong>${ACRONYMS_DATA.length} viết tắt</strong>.</div>`;
         return;
       }
       const hits = [];
@@ -2514,6 +2577,15 @@
         box.innerHTML = `<div class="text-center py-8 text-xs text-slate-500">Không tìm thấy kết quả nào khớp với “${escapeHtml(rawQuery)}”.</div>`;
         return;
       }
+      const scoreHit = h => {
+        const t = normalizeSearch(h.title);
+        const sp = normalizeSearch(h.speak);
+        if (sp === q || t === q) return 100;
+        if (sp.startsWith(q) || t.startsWith(q)) return 80;
+        if (t.includes(q)) return 60;
+        return 30;
+      };
+      hits.sort((a, b) => scoreHit(b) - scoreHit(a));
       box.innerHTML = hits.slice(0, 20).map((h, i) => `
         <div class="p-3 rounded-xl border border-slate-200 hover:border-amber-400 bg-slate-50/70 flex items-start justify-between gap-3 transition">
           <div class="space-y-1">
@@ -2522,6 +2594,9 @@
             <div class="text-xs text-slate-600">${escapeHtml(h.sub)}</div>
           </div>
           <div class="flex items-center gap-1 shrink-0">
+            <button type="button" data-gs-field="${escapeHtml(h.speak)}" data-gs-sub="${escapeHtml(h.sub)}" data-gs-badge="${escapeHtml(h.badge)}" class="p-1.5 rounded-lg bg-amber-100 border border-amber-200 hover:bg-amber-500 hover:text-navy-950 text-amber-900 transition" title="Phóng to giơ màn hình">
+              <i data-lucide="maximize-2" class="w-4 h-4"></i>
+            </button>
             <button type="button" data-gs-speak="${escapeHtml(h.speak)}" class="p-1.5 rounded-lg bg-white border border-slate-200 hover:bg-navy-900 hover:text-white text-navy-900 transition" title="Nghe phát âm">
               <i data-lucide="volume-2" class="w-4 h-4"></i>
             </button>
@@ -2826,9 +2901,9 @@
 
       // Reset modal (with backdrop click)
       const resetModal = document.getElementById('reset-modal');
-      document.getElementById('open-reset-modal-btn').addEventListener('click', () => resetModal.classList.remove('hidden'));
-      document.getElementById('cancel-reset-btn').addEventListener('click', () => resetModal.classList.add('hidden'));
-      resetModal.addEventListener('click', e => { if (e.target === resetModal) resetModal.classList.add('hidden'); });
+      document.getElementById('open-reset-modal-btn').addEventListener('click', () => { resetModal.classList.remove('hidden'); syncBodyScrollLock(); });
+      document.getElementById('cancel-reset-btn').addEventListener('click', () => { resetModal.classList.add('hidden'); syncBodyScrollLock(); });
+      resetModal.addEventListener('click', e => { if (e.target === resetModal) { resetModal.classList.add('hidden'); syncBodyScrollLock(); } });
       document.getElementById('confirm-reset-btn').addEventListener('click', () => {
         state.masteredVocab = [];
         state.reviewVocab = [];
@@ -2838,22 +2913,29 @@
         state.bestQuizPct = null;
         state.bestQuizDetail = null;
         state.customVocab = [];
-        state.dailyProgress = { date: '', count: 0 };
+        state.dailyProgress = { date: '', count: 0, ids: [] };
+        state.quizPool = [];
+        state.rpShuffledTurns = [];
         saveProgress();
         resetModal.classList.add('hidden');
+        syncBodyScrollLock();
         renderOverview();
-        showToast('Đã đặt lại toàn bộ tiến độ học tập.', 'warn');
+        renderVocab();
+        renderPhrases();
+        renderRoleplay();
+        renderReference();
+        showToast('Đã đặt lại toàn bộ tiến độ học tập (Sổ trực & Hotline được giữ nguyên).', 'warn');
       });
 
       // Custom Glossary Modal
       const cvModal = document.getElementById('custom-vocab-modal');
       document.getElementById('open-custom-vocab-btn').addEventListener('click', () => {
         cvModal.classList.remove('hidden');
+        syncBodyScrollLock();
         document.getElementById('cv-en').focus();
       });
-      document.getElementById('cancel-custom-vocab-btn').addEventListener('click', () => cvModal.classList.add('hidden'));
-      cvModal.addEventListener('click', e => { if (e.target === cvModal) cvModal.classList.add('hidden');
-          document.getElementById('field-display-modal')?.classList.add('hidden'); });
+      document.getElementById('cancel-custom-vocab-btn').addEventListener('click', () => { cvModal.classList.add('hidden'); syncBodyScrollLock(); });
+      cvModal.addEventListener('click', e => { if (e.target === cvModal) { cvModal.classList.add('hidden'); syncBodyScrollLock(); } });
       document.getElementById('custom-vocab-form').addEventListener('submit', e => {
         e.preventDefault();
         const en = document.getElementById('cv-en').value.trim();
@@ -2872,6 +2954,7 @@
         saveProgress();
         e.target.reset();
         cvModal.classList.add('hidden');
+        syncBodyScrollLock();
         state.vocabCat = 'custom';
         state.vocabMode = 'grid';
         renderVocab();
@@ -2884,15 +2967,16 @@
       document.getElementById('vocab-mode-flashcard').addEventListener('click', () => { state.vocabMode = 'flashcard'; state.fcFlipped = false; renderVocab(); });
       document.getElementById('vocab-mode-listening').addEventListener('click', () => { state.vocabMode = 'listening'; setupNextListeningQuestion(); renderVocab(); });
 
-      document.getElementById('vocab-search').addEventListener('input', e => {
+      document.getElementById('vocab-search').addEventListener('input', debounce(e => {
         state.vocabSearch = e.target.value;
         state.vocabPageLimit = 24;
         state.fcIndex = 0;
         state.fcFlipped = false;
         renderVocab();
-      });
+      }, 180));
       document.getElementById('vocab-mastery-filter').addEventListener('change', e => {
         state.vocabMasteryFilter = e.target.value;
+        state.vocabPageLimit = 24;
         state.fcIndex = 0;
         state.fcFlipped = false;
         renderVocab();
@@ -2923,15 +3007,17 @@
 
       // Flashcard controls
       document.getElementById('fc-scene').addEventListener('click', e => {
-        if (e.target.closest('#fc-speak-btn')) return;
+        if (e.target.closest('#fc-speak-btn') || e.target.closest('#fc-back-speak-btn')) return;
         state.fcFlipped = !state.fcFlipped;
         document.getElementById('fc-inner').classList.toggle('is-flipped', state.fcFlipped);
       });
-      document.getElementById('fc-speak-btn').addEventListener('click', e => {
+      const speakActiveFlashcard = e => {
         e.stopPropagation();
         const list = getFilteredVocab();
         if (list[state.fcIndex]) speakText(list[state.fcIndex].en);
-      });
+      };
+      document.getElementById('fc-speak-btn').addEventListener('click', speakActiveFlashcard);
+      document.getElementById('fc-back-speak-btn')?.addEventListener('click', speakActiveFlashcard);
       document.getElementById('fc-prev-btn').addEventListener('click', () => {
         const list = getFilteredVocab();
         if (!list.length) return;
@@ -2982,7 +3068,7 @@
       });
 
       // Phrasebook controls
-      document.getElementById('phrases-search').addEventListener('input', e => { state.phraseSearch = e.target.value; renderPhrases(); });
+      document.getElementById('phrases-search').addEventListener('input', debounce(e => { state.phraseSearch = e.target.value; renderPhrases(); }, 180));
       document.getElementById('phrases-bookmark-filter').addEventListener('click', () => { state.phraseBookmarkOnly = !state.phraseBookmarkOnly; renderPhrases(); });
       document.getElementById('phrases-scenario-pills').addEventListener('click', e => {
         const btn = e.target.closest('[data-psc]');
@@ -3041,11 +3127,11 @@
         renderInfoDeskChecklist();
         refreshIcons();
       });
-      document.getElementById('id-phrase-search').addEventListener('input', e => {
+      document.getElementById('id-phrase-search').addEventListener('input', debounce(e => {
         state.idPhraseSearch = e.target.value;
         renderInfoDeskPhrases();
         refreshIcons();
-      });
+      }, 180));
       document.getElementById('id-phrase-pills').addEventListener('click', e => {
         const btn = e.target.closest('[data-idcat]');
         if (!btn) return;
@@ -3076,7 +3162,7 @@
           const idx = state.idPinnedPhrases.indexOf(id);
           if (idx >= 0) { state.idPinnedPhrases.splice(idx, 1); showToast('Đã bỏ ghim mẫu câu.'); }
           else { state.idPinnedPhrases.push(id); showToast('Đã ghim mẫu câu đầu quầy!', 'success'); }
-          saveProgress(); renderInfoDeskPhrases(); refreshIcons();
+          saveProgress(); renderInfoDeskPhrases(); renderOverview(); refreshIcons();
         }
       });
       // Pin Info Desk Phrases
@@ -3143,14 +3229,21 @@
       const gsInput = document.getElementById('global-search-input');
       const openGlobalSearch = () => {
         gsModal.classList.remove('hidden');
+        syncBodyScrollLock();
         renderGlobalSearchResults(gsInput.value);
         setTimeout(() => gsInput.focus(), 40);
       };
       document.getElementById('open-global-search-btn').addEventListener('click', openGlobalSearch);
-      document.getElementById('close-global-search-btn').addEventListener('click', () => gsModal.classList.add('hidden'));
-      gsModal.addEventListener('click', e => { if (e.target === gsModal) gsModal.classList.add('hidden'); });
-      gsInput.addEventListener('input', e => renderGlobalSearchResults(e.target.value));
+      document.getElementById('close-global-search-btn').addEventListener('click', () => { gsModal.classList.add('hidden'); syncBodyScrollLock(); });
+      gsModal.addEventListener('click', e => { if (e.target === gsModal) { gsModal.classList.add('hidden'); syncBodyScrollLock(); } });
+      gsInput.addEventListener('input', debounce(e => renderGlobalSearchResults(e.target.value), 160));
       document.getElementById('global-search-results').addEventListener('click', e => {
+        const fd = e.target.closest('[data-gs-field]');
+        if (fd) {
+          gsModal.classList.add('hidden');
+          openFieldDisplay(fd.dataset.gsField, fd.dataset.gsSub || '', `${fd.dataset.gsBadge || 'VN Defence Expo 2026'} • Information`);
+          return;
+        }
         const sp = e.target.closest('[data-gs-speak]');
         if (sp) { speakText(sp.dataset.gsSpeak); return; }
         const cp = e.target.closest('[data-gs-copy]');
@@ -3234,7 +3327,7 @@
       // Export & Import JSON progress + custom glossary
       document.getElementById('export-progress-btn').addEventListener('click', () => {
         const payload = {
-          version: 'v6',
+          version: 'v7',
           exportedAt: new Date().toISOString(),
           masteredVocab: state.masteredVocab,
           reviewVocab: state.reviewVocab,
@@ -3358,7 +3451,7 @@
       }
 
 
-      document.getElementById('acronyms-search').addEventListener('input', e => { state.acronymSearch = e.target.value; renderAcronyms(); refreshIcons(); });
+      document.getElementById('acronyms-search').addEventListener('input', debounce(e => { state.acronymSearch = e.target.value; renderAcronyms(); refreshIcons(); }, 180));
       document.getElementById('acronyms-grid').addEventListener('click', e => {
         const btn = e.target.closest('[data-speak-acronym]');
         if (btn) speakText(btn.dataset.speakAcronym);
@@ -3422,6 +3515,8 @@
           resetModal.classList.add('hidden');
           cvModal.classList.add('hidden');
           gsModal.classList.add('hidden');
+          document.getElementById('field-display-modal')?.classList.add('hidden');
+          syncBodyScrollLock();
           return;
         }
         const tag = (e.target && e.target.tagName) || '';
@@ -3456,10 +3551,17 @@
       bindEvents();
       // Field Display Card modal controls
       const fdModal = document.getElementById('field-display-modal');
-      document.getElementById('close-field-display-btn')?.addEventListener('click', () => fdModal?.classList.add('hidden'));
-      fdModal?.addEventListener('click', e => { if (e.target === fdModal) fdModal.classList.add('hidden'); });
+      const closeFd = () => { fdModal?.classList.add('hidden'); syncBodyScrollLock(); };
+      document.getElementById('close-field-display-btn')?.addEventListener('click', closeFd);
+      fdModal?.addEventListener('click', e => { if (e.target === fdModal) closeFd(); });
       document.getElementById('field-display-speak-btn')?.addEventListener('click', () => speakText(activeFieldDisplayText, 1.0));
       document.getElementById('field-display-slow-btn')?.addEventListener('click', () => speakText(activeFieldDisplayText, 0.75));
+      document.getElementById('field-display-contrast-btn')?.addEventListener('click', () => {
+        if (!fdModal) return;
+        const isSun = fdModal.classList.toggle('field-display-sunlight');
+        const label = document.querySelector('#field-display-contrast-btn span');
+        if (label) label.textContent = isSun ? 'Nền tối (Trong nhà)' : 'Nền sáng (Ngoài trời)';
+      });
       setTab('overview');
       // Register Offline PWA Service Worker (works on GitHub Pages HTTPS & localhost)
       if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
