@@ -12,7 +12,8 @@
     html.font-lg { font-size: 18px; }
 
     body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+      overscroll-behavior-y: none;
       background-color: #F3F5F1;
       color: #122118;
       -webkit-tap-highlight-color: transparent;
@@ -23,6 +24,7 @@
     @media (max-width: 768px) {
       input, select, textarea {
         font-size: 16px !important;
+        min-height: 40px;
       }
     }
 
@@ -216,3 +218,80 @@ html.dark .text-orange-800 {
   }
 }
 
+/* ==================== V7 DARK MODE CONTRAST & SUNLIGHT FIXES ==================== */
+html.dark .bg-slate-50\/70 {
+  background-color: #16291D !important;
+}
+html.dark .bg-amber-100,
+html.dark .bg-amber-100\/80 {
+  background-color: rgba(245, 158, 11, 0.22) !important;
+}
+html.dark .bg-emerald-50\/50,
+html.dark .bg-emerald-100 {
+  background-color: rgba(16, 185, 129, 0.20) !important;
+}
+html.dark .text-emerald-700 {
+  color: #34D399 !important;
+}
+html.dark .bg-red-100 {
+  background-color: rgba(239, 68, 68, 0.22) !important;
+}
+html.dark .border-red-200 {
+  border-color: rgba(248, 113, 113, 0.35) !important;
+}
+html.dark .text-red-600,
+html.dark .text-red-800 {
+  color: #FCA5A5 !important;
+}
+html.dark .bg-blue-100 {
+  background-color: rgba(59, 130, 246, 0.22) !important;
+}
+html.dark .text-blue-800 {
+  color: #93C5FD !important;
+}
+html.dark .bg-purple-100 {
+  background-color: rgba(168, 85, 247, 0.22) !important;
+}
+html.dark .text-purple-700,
+html.dark .text-purple-800 {
+  color: #D8B4FE !important;
+}
+html.dark .bg-indigo-100 {
+  background-color: rgba(99, 102, 241, 0.22) !important;
+}
+html.dark .text-indigo-800 {
+  color: #A5B4FC !important;
+}
+html.dark .bg-teal-100 {
+  background-color: rgba(20, 184, 166, 0.22) !important;
+}
+html.dark .text-teal-800 {
+  color: #5EEAD4 !important;
+}
+html.dark textarea::placeholder {
+  color: #64748B !important;
+}
+
+/* Field Display Sunlight High-Contrast Mode (Outdoor Airfield) */
+#field-display-modal.field-display-sunlight {
+  background-color: #FFFFFF !important;
+  color: #09120C !important;
+}
+#field-display-modal.field-display-sunlight #field-display-en {
+  color: #09120C !important;
+}
+#field-display-modal.field-display-sunlight #field-display-vi {
+  color: #1E3A2A !important;
+}
+#field-display-modal.field-display-sunlight #field-display-badge {
+  background-color: #FEF3C7 !important;
+  border-color: #D97706 !important;
+  color: #92400E !important;
+}
+#field-display-modal.field-display-sunlight #close-field-display-btn,
+#field-display-modal.field-display-sunlight #field-display-slow-btn,
+#field-display-modal.field-display-sunlight #field-display-contrast-btn {
+  background-color: #E2E8F0 !important;
+  border-color: #CBD5E1 !important;
+  color: #0F172A !important;
+}
